@@ -9,6 +9,9 @@ import org.springframework.stereotype.*;
 
 import com.example.demo.dto.*;
 
+import lombok.Data;
+
+@Data
 @Component
 public class MailUtil {
 	@Autowired
